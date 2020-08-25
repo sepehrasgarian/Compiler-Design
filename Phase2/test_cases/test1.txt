@@ -1,0 +1,14 @@
+int i,j,k[50];
+float res2;
+
+main() {
+    k[0]=1 ;
+    k[1]=1 ;
+    for (i=2;i<10;i=i+1)
+    {
+        int i ;
+        k[i]=k[i-1]+k[i-2] ;
+        j=k[i] ;
+        print(j) ;
+    }
+}

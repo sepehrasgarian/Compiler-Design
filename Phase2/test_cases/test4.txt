@@ -1,0 +1,19 @@
+int i,j,k[50];
+float res2;
+void amir(int a,int b[],int c)
+{
+    if(a>c)
+    {
+        int w=b[a-c] ;
+        print(w) ;
+    }
+    elif (a==c)
+        print (a) ;
+    else
+        amir(a,b,c-a) ;
+}
+main() {
+    i=7 ;
+    j=10 ;
+    amir(i,k,j)  ;
+}
